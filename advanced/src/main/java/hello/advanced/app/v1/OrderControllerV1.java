@@ -19,6 +19,9 @@ public class OrderControllerV1 {
      * - 메서드 호출에 걸린 시간
      * - 정상 흐름과 예외 흐름 구분
      *
+     * 문제점
+     * - 메서드 호출의 깊이를 알 수 없다
+     * - 트랜잭션 ID로 HTTP 요청을 구분할 수 없다
      */
     private final HelloTraceV1 trace;
 
