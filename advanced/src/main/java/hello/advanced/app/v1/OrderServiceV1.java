@@ -18,13 +18,12 @@ public class OrderServiceV1 {
 
         try{
             status = trace.begin("OrderService.request()");
-            orderRepository.sava(itemId);
+            orderRepository.save(itemId);
             trace.end(status);
         }catch (Exception e){
             trace.exception(status, e);
             throw e; //예외를 반드시 던져줘야 애플리케이션의 흐름에 영향을 주지 않는다
         }
-        orderRepository.sava(itemId);
     }
 
 }

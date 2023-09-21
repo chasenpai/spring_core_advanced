@@ -11,7 +11,7 @@ public class OrderRepositoryV1 {
 
     private final HelloTraceV1 trace;
 
-    public void sava(String itemId){
+    public void save(String itemId){
 
         TraceStatus status = null;
 
