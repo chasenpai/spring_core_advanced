@@ -9,9 +9,6 @@ import org.junit.jupiter.api.Test;
 @Slf4j
 public class TemplateMethodTest {
 
-    /**
-     *
-     */
     @Test
     void templateMethodV0() {
         logic1();
